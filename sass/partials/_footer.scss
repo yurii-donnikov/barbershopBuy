@@ -12,33 +12,6 @@ footer {
         height: 100%;
         position: relative;
 
-
-        //        .fcolm {
-        //            padding: 20px 0 0 0;
-        //            //        width: 310px;
-        //
-        //            p {
-        //                line-height: 25px;
-        //                font-family: 'PT Sans Narrow', sans-serif;
-        //                font-weight: 500;
-        //                font-size: 14px;
-        //                text-transform: uppercase;
-        //                letter-spacing: 1px;
-        //                color: #ffffff;
-        //
-        //            }
-        //
-        //            a {
-        //                line-height: 25px;
-        //                font-family: 'PT Sans Narrow', sans-serif;
-        //                font-weight: 500;
-        //                font-size: 14px;
-        //                text-transform: uppercase;
-        //                letter-spacing: 1px;
-        //                color: #ffffff;
-        //            }
-        //        }
-
         .col-mg- {
             width: 100%;
             padding: 5px 0 0 0;
@@ -46,9 +19,9 @@ footer {
             top: 50%;
             left: 50%;
             margin-right: -50%;
+            transform: translate(-50%, -50%);
 
-            transform: translate(-50%, -50%); 
-                p {
+            p {
                 line-height: 25px;
                 font-family: 'PT Sans Narrow', sans-serif;
                 font-weight: 500;
@@ -59,7 +32,6 @@ footer {
             }
 
             .social {
-
                 margin: 10px 0 0 0;
 
                 a {

@@ -10,16 +10,9 @@ header {
         overflow: hidden;
 
         .logo {
-            //            display: block;
             max-height: 24px;
             max-width: 110px;
             line-height: 77px;
-
-
-            //            img{
-            //                height: 100%;
-            //                width: 100%;
-            //            }
         }
 
         nav {
@@ -27,13 +20,10 @@ header {
             line-height: 42px;
             padding: none;
 
-            button {}
-
             li {
                 margin: 0 10px 0 0px;
                 position: relative;
 
-                //                line-height: 32px;
                 &:nth-child(4) {
                     pointer-events: none;
 
@@ -52,13 +42,9 @@ header {
 
                         @media (max-width: 991px) {
                             display: none;
-                    
+
                         }
-
-
-
                     }
-
                 }
 
                 a {
@@ -78,10 +64,6 @@ header {
         .col-3 {
             line-height: 72px;
 
-            //            @media (max-width: 575px) {
-            //                float: right;
-            //            }
-
             .iconOpen {
                 min-height: 14px;
                 min-width: 14px;
@@ -89,10 +71,10 @@ header {
                 @media (max-width: 991px) {
                     float: right;
                 }
+
                 @media (max-width: 345px) {
                     display: none;
-}
-                
+                }
             }
 
             .hOpen {

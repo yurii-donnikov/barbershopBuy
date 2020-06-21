@@ -11,6 +11,9 @@ main {
             font-weight: 400;
             font-family: 'PT Sans Narrow', sans-serif;
 
+            @media (max-width: 375px) {
+                font-size: 25px;
+            }
         }
 
         .navMain {
@@ -22,6 +25,10 @@ main {
             color: #000000;
             font-weight: 700;
             font-family: 'PT Sans Narrow', sans-serif;
+
+            @media (max-width: 375px) {
+                font-size: 13px;
+            }
 
             a {
                 color: #000000;
@@ -37,7 +44,6 @@ main {
                     content: "";
                     height: 10px;
                     width: 10px;
-                    //                    border-radius: 7px;
                     transform: rotate(45deg);
                     position: absolute;
                     top: 3px;
@@ -46,15 +52,12 @@ main {
                     overflow: visible;
                     background-color: #000000;
                     pointer-events: none;
-
-
                 }
 
                 &::after {
                     content: "";
                     height: 10px;
                     width: 10px;
-                    //                    border-radius: 7px;
                     transform: rotate(45deg);
                     position: absolute;
                     top: 3px;
@@ -63,8 +66,6 @@ main {
                     overflow: visible;
                     background-color: #000000;
                     pointer-events: none;
-
-
                 }
             }
 
@@ -72,8 +73,6 @@ main {
                 color: #94908c;
                 pointer-events: none;
             }
-
-
         }
     }
 
@@ -89,18 +88,9 @@ main {
                 margin-left: auto;
                 margin-right: auto;
                 width: 100%;
-                //                text-align: center;
-                //                display: block;
-                //                margin-left: auto;
-                //                margin-right: auto;
-                //                width: 50%;
-                //                width: 200px !important;
-
-
             }
 
             .prod {
-
                 @media (max-width: 768px) {
                     display: inline-block;
                     width: 50%;
@@ -121,6 +111,10 @@ main {
                         margin: 0 auto;
                         padding: 50px 0 0 0;
                     }
+
+                    @media (max-width: 375px) {
+                        font-size: 15px;
+                    }
                 }
 
                 .form-check {
@@ -132,12 +126,6 @@ main {
                         padding: 20px 0 0 0;
                     }
 
-                    //                font-size: 14px;
-                    //                color: #000000;
-                    //                font-weight: 400;
-                    //                font-family: 'PT Sans Narrow', sans-serif;
-                    //                text-transform: uppercase;
-                    //
                     .form-check-input {
                         margin-top: 2px;
                     }
@@ -153,8 +141,10 @@ main {
                             font-size: 12px;
                         }
 
+                        @media (max-width: 375px) {
+                            font-size: 11px;
+                        }
                     }
-
                 }
             }
 
@@ -162,10 +152,8 @@ main {
                 @media (max-width: 768px) {
                     display: inline-block;
                     vertical-align: top;
-                    //                    margin-left: 20px;
                     width: 48%;
                     margin: 0 auto;
-
                 }
 
                 p {
@@ -182,7 +170,9 @@ main {
                         padding: 50px 0 0 0;
                     }
 
-
+                    @media (max-width: 375px) {
+                        font-size: 15px;
+                    }
                 }
 
                 .formTwo {
@@ -194,12 +184,6 @@ main {
                         padding: 20px 0 0px 0;
                     }
 
-                    //                font-size: 14px;
-                    //                color: #000000;
-                    //                font-weight: 400;
-                    //                font-family: 'PT Sans Narrow', sans-serif;
-                    //                text-transform: uppercase;
-                    //
                     .form-check-input {
                         margin-top: 2px;
                     }
@@ -215,8 +199,10 @@ main {
                             font-size: 12px;
                         }
 
+                        @media (max-width: 375px) {
+                            font-size: 11px;
+                        }
                     }
-
                 }
             }
 
@@ -233,19 +219,13 @@ main {
                 font-family: 'PT Sans Narrow', sans-serif;
 
                 @media (max-width: 768px) {
-                    //                    display: inline-block;
-                    //                    vertical-align: top;
-                    //                    margin-left: 20px;
                     width: 90%;
                     margin: 0 auto;
-
-
                 }
 
                 &:hover {
                     background-color: #292929;
                 }
-
             }
         }
 
@@ -253,31 +233,17 @@ main {
             margin: 40px 0 0px 0;
 
             @media (max-width: 768px) {
-                //                                text-align: center;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
                 width: 100%;
-                //                                width: 200px !important;
-
-
             }
-
-
-
-
-
-
 
             .buy {
                 display: block;
-                //                width: 200px;
                 width: 30.33%;
                 margin-right: 3%;
-
                 min-height: 60px;
-                //                margin-right: 10px;
-                //                border: 1px solid #ff0000;
                 margin: 10px 0 10px 0;
                 box-shadow: 0 0 30px 2px #d1ceca;
                 background-color: #f0efef;
@@ -290,14 +256,11 @@ main {
                     width: 48%;
                 }
 
-
-
                 .photo {
                     display: block;
                     position: relative;
                     max-height: 163px;
                     width: 100%;
-                    //                    width: 197px;
 
                     img {
                         height: 100%;
@@ -319,12 +282,10 @@ main {
                         font-size: 12px;
                     }
 
-
-
-
-
+                    @media (max-width: 329px) {
+                        font-size: 11px;
+                    }
                 }
-
 
                 .magazin {
                     margin: 0 0 10px 0;
@@ -336,28 +297,18 @@ main {
                     margin-left: auto;
                     margin-right: auto;
 
-
                     .price {
                         display: inline-block;
                         height: 40px;
                         width: 50%;
-                        //                        border-radius: 2px;
                         background-color: #d1d1d1;
                         pointer-events: none;
-                        //                        cursor: pointer;
                         margin: 0px 0 0 0px;
-
                         letter-spacing: normal;
-                        //                        font-size: 18px;
-                        //
-                        //                        @media (max-width: 600px) {
-                        //                            font-size: 12;
-                        //                        }
 
                         p {
                             color: #000000;
                             font-size: 18px;
-                            //                            text-transform: uppercase;
                             line-height: 40px;
                             text-align: center;
                             font-family: 'PT Sans Narrow', sans-serif;
@@ -370,15 +321,10 @@ main {
 
                     .click {
                         display: inline-block;
-
-
                         height: 40px;
                         width: 50%;
-
                         background-color: #000000;
-
                         margin: 0px 0 0 0px;
-
                         letter-spacing: normal;
                         font-size: 5px;
 
@@ -387,11 +333,9 @@ main {
                         }
 
                         p {
-
                             color: #ffffff;
                             font-size: 18px;
                             text-transform: uppercase;
-
                             line-height: 40px;
                             text-align: center;
                             font-family: 'PT Sans Narrow', sans-serif;
@@ -400,16 +344,8 @@ main {
                                 font-size: 10px;
                             }
                         }
-
-
-
-
-
                     }
-
                 }
-
-
             }
         }
 
@@ -433,7 +369,6 @@ main {
                         font-size: 18px;
                         font-family: 'PT Sans Narrow', sans-serif;
                         color: #ffffff;
-
                     }
 
                     .aTwo {

@@ -257,6 +257,11 @@ main .topMain .topTxt {
   font-weight: 400;
   font-family: "PT Sans Narrow", sans-serif;
 }
+@media (max-width: 375px) {
+  main .topMain .topTxt {
+    font-size: 25px;
+  }
+}
 main .topMain .navMain {
   position: relative;
   display: block;
@@ -266,6 +271,11 @@ main .topMain .navMain {
   color: #000000;
   font-weight: 700;
   font-family: "PT Sans Narrow", sans-serif;
+}
+@media (max-width: 375px) {
+  main .topMain .navMain {
+    font-size: 13px;
+  }
 }
 main .topMain .navMain a {
   color: #000000;
@@ -348,6 +358,11 @@ main .container-fluid .col-md-3 .prod p {
     padding: 50px 0 0 0;
   }
 }
+@media (max-width: 375px) {
+  main .container-fluid .col-md-3 .prod p {
+    font-size: 15px;
+  }
+}
 main .container-fluid .col-md-3 .prod .form-check {
   margin: 20px 0 0px 0;
 }
@@ -373,6 +388,11 @@ main .container-fluid .col-md-3 .prod .form-check .form-check-label {
     font-size: 12px;
   }
 }
+@media (max-width: 375px) {
+  main .container-fluid .col-md-3 .prod .form-check .form-check-label {
+    font-size: 11px;
+  }
+}
 @media (max-width: 768px) {
   main .container-fluid .col-md-3 .group {
     display: inline-block;
@@ -394,6 +414,11 @@ main .container-fluid .col-md-3 .group p {
     width: 50%;
     margin: 0 auto;
     padding: 50px 0 0 0;
+  }
+}
+@media (max-width: 375px) {
+  main .container-fluid .col-md-3 .group p {
+    font-size: 15px;
   }
 }
 main .container-fluid .col-md-3 .group .formTwo {
@@ -419,6 +444,11 @@ main .container-fluid .col-md-3 .group .formTwo .form-check-label {
 @media (max-width: 768px) {
   main .container-fluid .col-md-3 .group .formTwo .form-check-label {
     font-size: 12px;
+  }
+}
+@media (max-width: 375px) {
+  main .container-fluid .col-md-3 .group .formTwo .form-check-label {
+    font-size: 11px;
   }
 }
 main .container-fluid .col-md-3 .openShop {
@@ -496,6 +526,11 @@ main .container-fluid .col-9 .buy .buyProd {
 @media (max-width: 600px) {
   main .container-fluid .col-9 .buy .buyProd {
     font-size: 12px;
+  }
+}
+@media (max-width: 329px) {
+  main .container-fluid .col-9 .buy .buyProd {
+    font-size: 11px;
   }
 }
 main .container-fluid .col-9 .buy .magazin {
